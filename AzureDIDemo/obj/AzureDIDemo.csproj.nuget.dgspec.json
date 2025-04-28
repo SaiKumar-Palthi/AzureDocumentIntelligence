@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\rc12048\\source\\repos\\AzureDIDemo\\AzureDIDemo\\AzureDIDemo.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\rc12048\\source\\repos\\AzureDIDemo\\AzureDIDemo\\AzureDIDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rc12048\\source\\repos\\AzureDIDemo\\AzureDIDemo\\AzureDIDemo.csproj",
+        "projectName": "AzureDIDemo",
+        "projectPath": "C:\\Users\\rc12048\\source\\repos\\AzureDIDemo\\AzureDIDemo\\AzureDIDemo.csproj",
+        "packagesPath": "C:\\Users\\rc12048\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rc12048\\source\\repos\\AzureDIDemo\\AzureDIDemo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rc12048\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ryanunity/DXP/_packaging/DXP-Packages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Azure.AI.FormRecognizer": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Azure.Core": {
+              "target": "Package",
+              "version": "[1.44.1, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
